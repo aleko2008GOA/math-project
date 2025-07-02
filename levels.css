@@ -1,0 +1,11 @@
+#circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+pre, details {
+    font-family: monospace;
+}

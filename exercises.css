@@ -1,3 +1,13 @@
 ul {
     list-style: none;
 }
+
+main a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+main a:hover, main a:active {
+    color: #F5A623;
+}

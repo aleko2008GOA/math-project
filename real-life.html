@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="real-life.css">
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>გამოსაყენებელი მაგალითები</title>
 </head>
 <body>
-    <header>
+    <header class="animate__animated animate__fadeIn animate__duration-1s">
         <nav>
             <div>
-                <img src="./images/pi.png" alt="icon">
+                <img src="./images/pi.png" alt="icon" class="animate__spinInfinite">
                 <a><h1 href="./index.html">მარტივი მათემატიკა</h1></a>
             </div>
             <div>
@@ -31,7 +32,7 @@
             </select>
         </nav>
     </header>
-    <main>
+    <main class="animate__animated animate__fadeInUp">
         <h2>როგორ გვჭირდება მათემატიკა რეალურ ცხოვრებაში?</h2>
         <p>
             გგონია მათემატიკა რთულია? უამრავი ციფრი, ფორმულა და გაუგებარი სიმბოლო? ჩვენ 
@@ -44,10 +45,29 @@
             <li>როგორ გამოვიყენოთ იგი ყოველდღიურად?</li>
             <li>როგორ გავაუმჯობესოთ ჩვენი უნარები მარტივი გზით?</li>
         </ul>
+        <p>იხილეთ რამდენიმე ვიდეო მათემტიკის შესახებ და მიხვდებით, რომ ძალიან სასარგებლოა და არ არის რთული გასაგები - <a href="https://www.youtube.com/@3blue1brown">მეტი ვიდეო</a></p>
+        <div id="frames">
+            <iframe
+                src="https://www.youtube.com/embed/OmJ-4B-mS-Y?si=Xgnj6jrc8zHYKq7s" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <iframe 
+                src="https://www.youtube.com/embed/fNk_zzaMoSs?si=fQ4fmNrYx4F_HE84" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
     </main>
-    <footer>
+    <footer class="animate__animated animate__fadeInUp">
         <div>
-            <img src="./images/pi.png" alt="logo"> 
+            <img src="./images/pi.png" alt="logo" class="animate__spinLogoInfinite"> 
             <div>
                 <p>ყველას შეუძლია მათემატიკის გაგება</p><hr><br>
                 <a>My portfolio</a>
